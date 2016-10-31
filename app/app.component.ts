@@ -9,7 +9,8 @@ import { Component } from '@angular/core';
             <label>id: </label>{{hero.id}}
         </div>
         <div>
-            <label>name: </label>{{hero.name}}
+            <label>name: </label>
+            <input [(ngModel)]="hero.name" placeholder="name" />
         </div>
         `
 })
